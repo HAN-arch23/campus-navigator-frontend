@@ -1,0 +1,51 @@
+/* src/components/RoomList.css */
+
+.roomlist-container {
+  padding: 40px;
+  text-align: center;
+}
+
+.roomlist-title {
+  font-size: 28px;
+  color: #2e7d32;
+  margin-bottom: 30px;
+}
+
+.roomlist-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 25px;
+  padding: 20px;
+}
+
+.room-card {
+  background: #f1f8e9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 128, 0, 0.1);
+  text-align: left;
+}
+
+.room-card h3 {
+  margin-top: 0;
+  color: #388e3c;
+}
+
+.room-card p {
+  margin: 5px 0;
+}
+
+.book-btn {
+  margin-top: 15px;
+  background-color: #66bb6a;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.book-btn:hover {
+  background-color: #43a047;
+}
